@@ -1,0 +1,160 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Pizzas",
+      "descripcion": "Pizzas artesanales y clasicas.",
+      "imagen_url": "",
+      "parent_id": null
+    },
+    {
+      "id": "2",
+      "nombre": "Hamburguesas",
+      "descripcion": "Burgers gourmet y clasicas.",
+      "imagen_url": "",
+      "parent_id": null
+    },
+    {
+      "id": "3",
+      "nombre": "Bebidas",
+      "descripcion": "Bebidas frias y calientes.",
+      "imagen_url": "",
+      "parent_id": null
+    },
+    {
+      "id": "4",
+      "nombre": "Postres",
+      "descripcion": "Dulces y helados.",
+      "imagen_url": "",
+      "parent_id": null
+    },
+    {
+      "id": "5",
+      "nombre": "Gaseosas",
+      "descripcion": "Variedad de gaseosas.",
+      "imagen_url": "",
+      "parent_id": "3"
+    },
+    {
+      "id": "6",
+      "nombre": "Jugos Naturales",
+      "descripcion": "Jugos exprimidos.",
+      "imagen_url": "",
+      "parent_id": "3"
+    },
+    {
+      "nombre": "Pritty limon",
+      "descripcion": "Gaseosa de limon",
+      "imagen_url": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/186238/Gaseosa-Limon-Pritty-2-25-Lt-1-7.jpg?v=638709321658900000",
+      "parent_id": "5",
+      "id": "1m87NESdjgY"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Pizza Margarita",
+      "descripcion": "Salsa de tomate, mozzarella y albahaca fresca.",
+      "precio_base": 2500,
+      "stock_cantidad": 20,
+      "disponible": true,
+      "categoria_id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Pizza Calabresa",
+      "descripcion": "Salsa de tomate, mozzarella y longaniza picante.",
+      "precio_base": 2800,
+      "stock_cantidad": 0,
+      "disponible": true,
+      "categoria_id": "1"
+    },
+    {
+      "id": "3",
+      "nombre": "Burger Clásica",
+      "descripcion": "Medallón de res, lechuga, tomate y cebolla.",
+      "precio_base": 1800,
+      "stock_cantidad": 15,
+      "disponible": true,
+      "categoria_id": "2"
+    },
+    {
+      "id": "4",
+      "nombre": "Burger BBQ",
+      "descripcion": "Doble medallón, bacon crocante y salsa BBQ.",
+      "precio_base": 2400,
+      "stock_cantidad": 8,
+      "disponible": true,
+      "categoria_id": "2"
+    },
+    {
+      "id": "5",
+      "nombre": "Coca-Cola 500ml",
+      "descripcion": "Gaseosa Coca-Cola en botella.",
+      "precio_base": 600,
+      "stock_cantidad": 100,
+      "disponible": true,
+      "categoria_id": "5"
+    },
+    {
+      "id": "6",
+      "nombre": "Tiramisú",
+      "descripcion": "Postre italiano con mascarpone y café.",
+      "precio_base": 1200,
+      "stock_cantidad": 5,
+      "disponible": false,
+      "categoria_id": "4"
+    }
+  ],
+  "ingredientes": [
+    {
+      "id": "1",
+      "nombre": "Gluten (Harina de Trigo)",
+      "descripcion": "Harina tipo 000 para masas.",
+      "es_alergeno": true
+    },
+    {
+      "id": "2",
+      "nombre": "Mozzarella",
+      "descripcion": "Queso mozzarella fresco.",
+      "es_alergeno": false
+    },
+    {
+      "id": "3",
+      "nombre": "Salsa de Tomate",
+      "descripcion": "Salsa casera de tomate perita.",
+      "es_alergeno": false
+    },
+    {
+      "id": "4",
+      "nombre": "Albahaca",
+      "descripcion": "Albahaca fresca.",
+      "es_alergeno": false
+    },
+    {
+      "id": "5",
+      "nombre": "Lactosa (Queso)",
+      "descripcion": "Derivado lácteo.",
+      "es_alergeno": true
+    },
+    {
+      "id": "6",
+      "nombre": "Huevo",
+      "descripcion": "Huevo de gallina.",
+      "es_alergeno": true
+    },
+    {
+      "id": "7",
+      "nombre": "Bacon",
+      "descripcion": "Panceta ahumada crocante.",
+      "es_alergeno": false
+    },
+    {
+      "id": "8",
+      "nombre": "Lechuga",
+      "descripcion": "Lechuga fresca hidropónica.",
+      "es_alergeno": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
