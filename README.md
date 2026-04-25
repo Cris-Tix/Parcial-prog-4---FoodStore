@@ -1,0 +1,8 @@
+Link al video: https://youtu.be/4fDyCeaJTsU
+
+El repositorio contiene las carpetas respectivamente de frontend y backend
+
+Tuve problemas al momento de subir los archivos con github. Estuve bastante complicado con los horarios hasta ultimo momento por el trabajo, tanto para desarrollar el parcial en si, como para subir los archivos y grabar el video.
+Pido disculpas por lo mismo.
+
+Por otro lado la entrega en el campus se me habilitó en la sección de "Comisión 4", pero actualmente me encuentro en la comisión 3. Hice el cambio de comisión hace ya 2 o 3 semanas, no recuerdo exactamente.
